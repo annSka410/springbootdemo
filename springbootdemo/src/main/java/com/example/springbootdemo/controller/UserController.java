@@ -53,7 +53,4 @@ public class UserController {
         userService.saveUser(user);
         return "redirect:/users";
     }
-
-
-
 }
